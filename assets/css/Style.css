@@ -91,6 +91,11 @@ header nav ul li a:hover {
 .work {
     display: inline-block;
 }
+
+.work h3 {
+    color: var(--secondary-color);
+    font-size: 35px;
+}
 .runbuddy {
     width: 30%;
     height:30%;
@@ -108,4 +113,24 @@ header nav ul li a:hover {
     display:flex;
     flex-wrap: wrap;
     margin:8px;
+}
+
+/*Contact info Formatting*/
+.contactinfo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.contactinfo h1 {
+    padding: 10px;
+    font-size: 40px;
+    border-right: 2px solid var(--primary-color);
+    
+}
+
+.contactinfo li {
+    padding: 10px;
+    font-size: 25px;
+    margin-left: 10px;
+    list-style: none;
 }

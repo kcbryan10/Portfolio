@@ -86,3 +86,26 @@ header nav ul li a:hover {
     margin-right: 15px;
     margin-top:15px;
 }
+
+/*work fomarting*/
+.work {
+    display: inline-block;
+}
+.runbuddy {
+    width: 30%;
+    height:30%;
+    border: 3px solid var(--primary-color);
+    float:left;
+    display:flex;
+    flex-wrap: wrap;
+    margin:8px;
+}
+
+.horiseon {
+    width:30%;
+    height:30%;
+    border: 3px solid var(--primary-color);
+    display:flex;
+    flex-wrap: wrap;
+    margin:8px;
+}
